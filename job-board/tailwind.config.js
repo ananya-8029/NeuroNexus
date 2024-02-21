@@ -7,7 +7,11 @@ module.exports = {
     
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'landing_page_bg':"url('/assests/landing_page.jpg')"
+      }
+    },
   },
   plugins: [],
 };
