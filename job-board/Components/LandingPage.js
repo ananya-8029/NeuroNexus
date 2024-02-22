@@ -32,21 +32,32 @@ const Home = () => {
         </div>
       </div>
       <div className="h-96 flex items-center justify-center">
-        <div className="w-8/12 h-[80%] items-center flex justify-center gap-2 text-slate-600">
+        <div className="w-8/12 h-[80%] items-center flex justify-center gap-2 text-slate-400">
           <div className="flex flex-col justify-center items-center w-1/4 h-full gap-5">
-            <img src="/assests/job-level.png" className="size-32"/>
+            <img src="/assests/job-level.png" className="size-32" />
             <p className="text-xl">Job Level</p>
           </div>
           <div className="flex flex-col justify-center items-center w-1/4 h-full gap-5">
-            <img src="/assests/job-type.png" className="size-32"/>
+            <img src="/assests/job-type.png" className="size-32" />
             <p className="text-xl">Job Type</p>
           </div>
-          <div className="flex-col justify-center items-center w-1/4 h-full bg-blue-400">
+          <div className="flex flex-col justify-center items-center w-1/4 h-full gap-5">
+            <img src="/assests/employment_type.png" className="size-32" />
             <p className="text-xl">Employment Type</p>
           </div>
-          <div className="flex-col justify-center items-center w-1/4 h-full bg-green-400">
+          <div className="flex flex-col justify-center items-center w-1/4 h-full gap-5">
+            <img src="/assests/location.png" className="size-32" />
             <p className="text-xl">Location</p>
           </div>
+        </div>
+      </div>
+      <div className="h-72 flex bg-[#F4F2EE]">
+        <div className="relative w-1/2">
+          <img src="/assests/img1.jpg" className="top-[-6%] left-[15%] absolute h-[20rem] w-[36rem]" />
+        </div>
+        <div className="w-1/2 font-light flex items-center justify-start text-2xl">
+          <p className="w-[70%] leading-loose">Our mission is to empower individuals like you to unlock your full
+          career potential and seize exciting opportunities.</p>
         </div>
       </div>
     </>
