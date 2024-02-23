@@ -53,11 +53,36 @@ const Home = () => {
       </div>
       <div className="h-72 flex bg-[#F4F2EE]">
         <div className="relative w-1/2">
-          <img src="/assests/img1.jpg" className="top-[-6%] left-[15%] absolute h-[20rem] w-[36rem]" />
+          <img
+            src="/assests/img1.jpg"
+            className="top-[-6%] left-[15%] absolute h-[20rem] w-[36rem]"
+          />
         </div>
         <div className="w-1/2 font-light flex items-center justify-start text-2xl">
-          <p className="w-[70%] leading-loose">Our mission is to empower individuals like you to unlock your full
-          career potential and seize exciting opportunities.</p>
+          <p className="w-[70%] leading-loose">
+            Our mission is to empower individuals like you to unlock your full
+            career potential and seize exciting opportunities.
+          </p>
+        </div>
+      </div>
+      <div className="w-full h-[30rem] my-[3rem] p-[2rem] flex justify-center">
+        <div className="w-[70%] flex gap-8">
+          <div className="w-1/3 flex justify-center items-center text-5xl font-bold text-[#565656]">
+            <h1>FEATURED COMPANIES</h1>
+          </div>
+          <div className="w-2/3 flex justify-center items-center">
+            <div className="flex flex-col w-[80%] h-[80%]">
+              <div className="flex w-full h-1/2">
+                <div className="w-1/2 bg-red-400"></div>
+                <div className="w-1/2 bg-yellow-400"></div>
+              </div>
+
+              <div className="flex h-1/2">
+                <div className="w-1/2 bg-blue-400"></div>
+                <div className="w-1/2 bg-green-400"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
