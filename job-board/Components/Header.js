@@ -1,14 +1,18 @@
 import React from "react";
-import { Italiana } from '@next/font/google'
+import { Italiana } from "@next/font/google";
 
-const italiana = Italiana({subsets:['latin'],weight:['400']})
+const italiana = Italiana({ subsets: ["latin"], weight: ["400"] });
 
 const Header = () => {
   return (
     <div className="h-32 flex justify-center items-center">
       <div className="flex w-4/5 justify-evenly py-1.5 text-slate-500">
         {/* <img src="/assests/LOGO.png" className="size-28" /> */}
-        <div className={italiana.className}><p className="text-5xl text-[#3A4D39]">Career <br/> Craft</p></div>
+        <div className={italiana.className}>
+          <p className="text-5xl text-[#3A4D39]">
+            Career <br /> Craft
+          </p>
+        </div>
         <div className="flex items-center gap-9 text-xl ">
           <div>
             <p>Home</p>
