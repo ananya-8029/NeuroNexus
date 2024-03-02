@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+::selection{
+  color: #f2aa67;
+  background-color: #f4e3d3;
+}
 * {
   margin: 0;
   box-sizing: border-box;
@@ -84,12 +89,12 @@ body {
 }
 
 .box-container-2 {
-  height: 50%;
+  height: 60%;
   font-family: "Poppins", sans-serif;
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 2vmax;
 }
 
@@ -125,4 +130,32 @@ body {
 
 .container-2 span {
   font-weight: 500;
+}
+
+.box-container-3{
+  font-family: "Poppins", sans-serif;
+  height: 135%;
+  margin-top: 1vmax;
+}
+
+.box-container-3 h1{
+  color: #b47d4a;
+  font-weight: 100;
+  font-size: 5vmax;
+  padding-left: 2vmax;
+}
+
+.box-container-3 div{
+  width: 65%;
+  color: #fdf3e8;
+  text-align: justify;
+  padding: 1vmax 2vmax;
+  font-weight: 100;
+  font-size: 1.3vmax;
+}
+
+.box-container-3 div h4{
+  font-weight: 400;
+  font-size: 1.8vmax;
+  color: whitesmoke;
 }
