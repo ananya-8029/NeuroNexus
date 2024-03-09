@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Board Website
 
-## Getting Started
+Welcome to the Job Board Website repository! This project is a web application designed to serve as a platform for job seekers and employers to connect. The website allows users to search for job listings, apply for positions, and for employers to post job openings.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Job Listings**: Browse through a comprehensive list of job opportunities.
+- **Job Search**: Search for specific job titles or keywords to find relevant listings.
+- **User Authentication**: Register as a job seeker or employer, login, and manage your account.
+- **Apply for Jobs**: Job seekers can apply for positions directly through the website.
+- **Post Job Openings**: Employers can post job openings and manage their listings.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: Built using Next.js for the user interface.
+- **Backend**: Powered by Node.js, providing RESTful API endpoints.
+- **Database**: MongoDB is used as the database to store job listings, user information, and other relevant data.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! If you have any suggestions, improvements, or would like to report a bug, please open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For inquiries or collaboration opportunities, feel free to reach out to me via anaya29003@gmail.com.
 
-## Deploy on Vercel
+Happy job hunting!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
