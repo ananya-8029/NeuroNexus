@@ -8,8 +8,8 @@ NeuroNexus is a pioneer in the field of IT services and software development. Th
 
 ## Repository Contents
 
-- Landing Page: A landing page is an ideal web development project for beginners. It requires basic knowledge of HTML and CSS. The landing page is about the Wonders on the World.
+- **Landing Page**: A landing page is an ideal web development project for beginners. It requires basic knowledge of HTML and CSS. The landing page is about the Wonders on the World.
 page.
-- Job Board: The Job board website is about finding jobs where job seekers can search and apply for job and also employers can post job openings.
+- **Job Board**: The Job board website is about finding jobs where job seekers can search and apply for job and also employers can post job openings.
 
 
