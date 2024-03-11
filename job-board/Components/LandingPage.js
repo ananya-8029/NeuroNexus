@@ -65,13 +65,13 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="w-full h-[30rem] my-[3rem] p-[2rem] flex justify-center">
-        <div className="w-[70%] flex gap-8">
+      <div className="w-full h-[30rem] my-[3rem] py-[2rem] px-[4rem] flex justify-center">
+        <div className="w-[65%] flex justify-between">
           <div className="w-1/3 flex justify-center items-center text-5xl font-bold text-[#565656]">
             <h1>FEATURED COMPANIES</h1>
           </div>
-          <div className="w-2/3 flex justify-center items-center">
-            <div className="flex flex-col w-[80%] h-[80%]">
+          <div className="w-[50%] flex justify-center items-center">
+            <div className="flex flex-col w-full h-[80%]">
               <div className="flex w-full h-1/2">
                 <div className="w-1/2 bg-red-400"></div>
                 <div className="w-1/2 bg-yellow-400"></div>

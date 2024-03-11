@@ -13,23 +13,25 @@ const Header = () => {
             Career <br /> Craft
           </p>
         </div>
-        <div className="flex items-center gap-9 text-xl ">
-          <div>
+        <div className="flex items-center gap-9 text-xl cursor-pointer">
+          <div className="hover:scale-[1.1] transition duration-300 ease-in-out">
             <p>Home</p>
           </div>
-          <div>
+          <div className="hover:scale-[1.1] transition duration-300 ease-in-out">
             <p>Jobs</p>
           </div>
-          <div>
+          <div className="hover:scale-[1.1] transition duration-300 ease-in-out">
             <p>Companies</p>
           </div>
-          <div>
+          <div className="hover:scale-[1.1] transition duration-300 ease-in-out">
             <p>Testimonials</p>
           </div>
         </div>
         <div className="flex items-center gap-3">
-          <button className="bg-[#4F6F52] text-white w-24 h-8">Login</button>
-          <button className="w-20">Post Jobs</button>
+          <button className="bg-[#4F6F52] text-white w-24 h-8 transition duration-150 hover:bg-[#628a66]">
+            Login
+          </button>
+          <button className="w-20 hover:text-[#253427]">Post Jobs</button>
         </div>
       </div>
     </div>

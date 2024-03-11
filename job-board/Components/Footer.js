@@ -6,7 +6,7 @@ const italiana = Italiana({ subsets: ["latin"], weight: ["400"] });
 const Footer = () => {
   return (
     <>
-      <div className="flex h-64 w-full bg-[#4F6F52]">
+      <div className="flex h-[14vmax] w-full bg-[#4F6F52]">
         <div className="w-1/4 flex justify-center items-center border-r-2 border-[#405842]">
           <div className="w-[80%] h-[80%] flex justify-center items-center">
             <div className={italiana.className}>
