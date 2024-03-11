@@ -71,13 +71,13 @@ const Home = () => {
             <h1>FEATURED COMPANIES</h1>
           </div>
           <div className="w-[50%] flex justify-center items-center">
-            <div className="flex flex-col w-full h-[80%]">
-              <div className="flex w-full h-1/2">
+            <div className="flex flex-col w-full h-[80%] gap-1">
+              <div className="flex w-full h-1/2 gap-1">
                 <div className="w-1/2 bg-red-400"></div>
                 <div className="w-1/2 bg-yellow-400"></div>
               </div>
 
-              <div className="flex h-1/2">
+              <div className="flex h-1/2 gap-1">
                 <div className="w-1/2 bg-blue-400"></div>
                 <div className="w-1/2 bg-green-400"></div>
               </div>
